@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 export const Footer = () => {
   return (
     <>
-    <footer class="bg-white dark:bg-gray-900 bg-[#E8E59B]">
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <footer class="bg-[#E8E59B]">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
             <div class="md:flex md:justify-between">
               <div class="mb-6 md:mb-0">
                 <img src={logoDIVINE} class="w-[12rem] self-center  whitespace-nowrap dark:text-white"/>
@@ -51,7 +51,8 @@ export const Footer = () => {
               </div>
           </div>
         </div>
-    </footer>
+        </footer>
+
 
     </>
   )
